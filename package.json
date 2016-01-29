@@ -1,0 +1,23 @@
+{
+  "name": "gobble-jade-es6",
+  "version": "1.0.0",
+  "description": "Generate precompiled jade templates in ES6 module format",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienw/gobble-jade-es6.git"
+  },
+  "author": "Julien Wajsberg <felash@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julienw/gobble-jade-es6/issues"
+  },
+  "homepage": "https://github.com/julienw/gobble-jade-es6#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
