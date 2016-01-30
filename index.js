@@ -12,7 +12,7 @@ function jade(source, options) {
 
 jade.defaults = {
   accept: ['.jade'],
-  ext: '.js'
+  ext: '.jade.js'
 };
 
 module.exports = jade;
