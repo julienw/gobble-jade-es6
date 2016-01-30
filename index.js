@@ -7,7 +7,10 @@ function jade(source, options) {
   options.filename = this.src;
   options.name = 'jadeTemplate';
   var compiledFunc = Jade.compileClient(source, options);
-  return 'export default ' + compiledFunc;
+  return `
+  import jade from 'jade/runtime';
+  export default ${compiledFunc}`;
+  ``
 }
 
 jade.defaults = {

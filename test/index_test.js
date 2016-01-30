@@ -12,8 +12,9 @@ h2 By #{author}
 
     let output = main(src);
     const expectedPrefix = 'export default ';
-    assert.equal(output.slice(0, expectedPrefix.length), expectedPrefix);
-    output = output.slice(expectedPrefix.length);
+    assert.include(output, expectedPrefix);
+    const prefixIndex = output.indexOf(expectedPrefix);
+    output = output.slice(prefixIndex + expectedPrefix.length);
 
     const context = {
       jade: require('jade/runtime')
