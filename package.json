@@ -1,6 +1,6 @@
 {
   "name": "gobble-jade-es6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate precompiled jade templates in ES6 module format",
   "main": "index.js",
   "scripts": {
