@@ -26,6 +26,7 @@
   },
   "keywords": [
     "gobble",
+    "gobble-plugin",
     "jade",
     "es6",
     "modules"
